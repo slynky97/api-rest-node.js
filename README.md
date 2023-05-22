@@ -1,26 +1,26 @@
 # API EN NODE
 
-#Instalando dependicias
+# Instalando dependicias
 
 nmp install
 
-#verificar que este instalado postgres
+# verificar que este instalado postgres
 
 crear la tabla usuarios en la base de datos
 crear columnas id, ci, nombre, primerApellido, segundoApellido, fechaNacimiento 
 si se desea configurar la base de datos ir al archivo raiz(src/index.js)
 
-#Levantar el servidor
+# Levantar el servidor
 
-#si tienes nodemon ejecutar comando dentro de la carpeta src:
+# si tienes nodemon ejecutar comando dentro de la carpeta src:
 
 nodemon
 
-#si no tienes instalado nodemon entrar a la carpeta src y ejecutar comando:
+# si no tienes instalado nodemon entrar a la carpeta src y ejecutar comando:
 
 node index.js
 
-#endponits
+# endponits
 
 get('/users', getUsers) obtiene usuario
 post('/users', createUsers) crea usuario
@@ -29,7 +29,7 @@ delete('/user/:id', deleteUser) elimina usuario por id
 put('/users/:id', ubdateUser) actualiza usuario por id
 get('/users/edades/get', obtenerEdades) obtiene promedio de edades
 
-#informacion del proyecto
+# informacion del proyecto
 
 {"name": "restapi-node-postgres",
 "version": "1.0.0",
